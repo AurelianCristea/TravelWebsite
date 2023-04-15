@@ -1,0 +1,8 @@
+<app-title></app-title>
+<app-search></app-search>
+<div class="location-list-container">
+    <ng-container *ngFor="let thislocation of Locations">
+              <app-location [location]="thislocation"></app-location>
+             
+    </ng-container>
+</div>
